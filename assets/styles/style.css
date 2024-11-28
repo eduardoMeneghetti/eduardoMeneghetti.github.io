@@ -1,0 +1,127 @@
+.img_perfil > img{
+    height: 200px;
+    width: 200px;
+}
+
+.sessao_1 {
+    width: 30%;                     
+    text-align: center;
+    line-height: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.formacoes{
+    line-height: 0.5;
+}
+  
+.sessao_2 {
+    background: url('/assets/icons/space_purple.jpeg') no-repeat center center;
+    background-size: cover;
+    border-radius: 2%;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.icon-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px; 
+    display: flex;
+    gap: 10px;
+    z-index: 1;   
+}
+
+.icon-container img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.a_experience{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 35%;
+}
+
+.local{
+    line-height: 0.5;
+    margin-bottom: 5%;
+}
+
+.resumo_carreira{
+    text-align: justify;
+}
+
+.resumo_carreira h2{
+    text-align: center;
+}
+
+.text_filo{
+    margin-bottom: 8%;
+}
+
+.a_sem_interacao{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.a_sem_interacao:hover{
+    cursor: pointer;
+    color: var(--blue);
+}
+
+.title_exp{
+    text-align: center;
+}
+
+.Apresentation{
+    text-align: center;
+    color: var(--purple);
+}
+
+.escope{
+    padding: 5%;
+}
+
+.Fundo_text {
+    background-image: url("/assets/icons/plano_de_fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    min-height: 100vh; 
+}
+
+.Fundo_text_index{
+    background-image: url("/assets/icons/papel_fundo_index.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    min-height: 100vh; 
+}
+
+
+.back{
+    padding: 5%;
+}
+
+.empresas_name{
+    color: var(--purple);
+}
+
+.title_exp_emp{
+    color: var(--blue);
+}

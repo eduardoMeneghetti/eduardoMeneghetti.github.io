@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: var(--inter-regular);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1,
+a {
+    color: var(--blue);
+}
+
+h2 {
+    color: var(--purple);
+}
+
+img {
+    border-radius: 5%;
+}
+
+main {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: var(--blue);
+    transition: color 0.3s, text-decoration-color 0.3s;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration-color: var(--purple);
+}

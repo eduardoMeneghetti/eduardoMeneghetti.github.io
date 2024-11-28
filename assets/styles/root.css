@@ -1,0 +1,11 @@
+:root{
+    /*COLORS*/
+    --black-full: #151010;
+    --blue: #4EAFFF;
+    --purple: #9E9BE8;
+    --white: #ECDEDE;
+
+    /*FONTS*/
+    --inter-regular: 'inter-regular';
+    --inter-bold: 'inter-bold';
+}   
